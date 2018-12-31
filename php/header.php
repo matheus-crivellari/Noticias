@@ -22,7 +22,7 @@
 	<ul>
 		<li><a href="index.php">Home</a></li>
 		<li><a href="noticias.php">Notícias</a></li>
-		<li><a href="#">Administração <i class="fas fa-lock"></i></a></li>
+		<li><a href="admin/index.php">Administração <i class="fas fa-lock"></i></a></li>
 	</ul>
 	<div class="clearfix"></div>
 </nav>
