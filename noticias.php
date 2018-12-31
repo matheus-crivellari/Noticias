@@ -1,3 +1,6 @@
+<?php
+$categoriaid = isset($_GET['categoria']) ? $_GET['categoria'] : 0;
+?>
 <!DOCTYPE html>
 <html lang="pt_br">
 <head>
@@ -12,7 +15,18 @@
 	<div id="principal">
 		<?php require_once 'php/header.php' ?>
 		<main>
-			<!-- Notícias comuns -->
+			<!-- Seletor de seções -->
+			<section id="seletor">
+				<form action="" method="GET">
+					<select name="categoria" id="categoria" onchange="form.submit()">
+						<option value="0" <?= $categoriaid == 0 ? 'selected' : null ?>>Todas</option>
+						<option value="1" <?= $categoriaid == 1 ? 'selected' : null ?>>Categoria 1</option>
+						<option value="2" <?= $categoriaid == 2 ? 'selected' : null ?>>Categoria 2</option>
+						<option value="3" <?= $categoriaid == 3 ? 'selected' : null ?>>Categoria 3</option>
+					</select>
+				</form>
+			</section>
+			<!-- Todas as notícias -->
 			<section id="comuns">
 				<?php for ($i=0;$i<3;$i++): ?>
 					<?php $link = 'detalhe.php'; ?>

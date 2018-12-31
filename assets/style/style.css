@@ -158,6 +158,11 @@ li{
 }
 
 /* Conteúdo do site */
+section#seletor{
+	padding: 20px;
+    text-align: right;
+}
+
 #comuns{
 	width: 100%;
 	height: auto;
@@ -323,7 +328,7 @@ li{
 	color: #888;
 }
 
-a.button{
+a.button, select#categoria{
 	display: inline-block;
 	padding: 12px;
 	border: solid 1px #ccc;
@@ -332,6 +337,10 @@ a.button{
 	text-decoration: none;
 	color: #777;
 	background: linear-gradient(to bottom, #fff 0%,#eee 100%);
+}
+
+select#categoria{
+	width: 200px;
 }
 
 a.button:hover{
