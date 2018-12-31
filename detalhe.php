@@ -4,13 +4,13 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 
-	<link rel="stylesheet" href="../assets/style/fontawesome/css/all.css">
+	<link rel="stylesheet" href="assets/style/fontawesome/css/all.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,900" rel="stylesheet">
-	<link rel="stylesheet" href="../assets/style/style.css">
+	<link rel="stylesheet" href="assets/style/style.css">
 </head>
 <body>
 	<div id="principal">
-		<?php require '../php/header.php' ?>
+		<?php require 'php/header.php' ?>
 		<main>
 			<article id="artigo">
 				<h1 id="titulo">
@@ -21,7 +21,7 @@
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
 					</article>
 					<figure>
-						<img src="../assets/img/1000x610.png" alt="">
+						<img src="assets/img/1000x610.png" alt="">
 					</figure>
 					<article id="corpo">
 						<p>
@@ -37,7 +37,7 @@
 				</article>
 			</article>
 		</main>
-		<?php require '../php/footer.php' ?>
+		<?php require 'php/footer.php' ?>
 	</div>
 </body>
 </html>

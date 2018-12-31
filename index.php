@@ -2,7 +2,7 @@
 <html lang="pt_br">
 <head>
 	<meta charset="UTF-8">
-	<title>Sem título</title>
+	<title>Notícias</title>
 
 	<link rel="stylesheet" href="assets/style/fontawesome/css/all.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,900" rel="stylesheet">
@@ -15,7 +15,7 @@
 			<!-- Notícias em destaque -->
 			<section id="destaques">
 				<?php for ($i=0;$i<2;$i++): ?>
-					<?php $link = 'noticias/detalhe.php'; ?>
+					<?php $link = 'detalhe.php'; ?>
 					<?php $cat_url = '#'; ?>
 					<article class="destaque" style="background-image: url(assets/img/1000x610.png);">
 						<p class="categoria"><strong><a href="<?= $cat_url ?>">Categoria</a></strong></p>
@@ -27,11 +27,11 @@
 				<?php endfor; ?>
 			</section>
 			<div class="clearfix"></div>
-			<p></p>
+			<br>
 			<!-- Notícias comuns -->
 			<section id="comuns">
 				<?php for ($i=0;$i<3;$i++): ?>
-					<?php $link = 'noticias/detalhe.php'; ?>
+					<?php $link = 'detalhe.php'; ?>
 					<?php $cat_url = '#'; ?>
 					<article class="comum">
 						<figure>
@@ -49,7 +49,7 @@
 				<div class="clearfix"></div>
 			</section>
 		</main>
-		<p><a id="mais" href="noticias/index.php">Mais notícias...</a></p>
+		<p><a id="mais" href="noticias.php">Mais notícias...</a></p>
 		<?php require_once 'php/footer.php'; ?>
 	</div>
 </body>

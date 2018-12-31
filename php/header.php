@@ -20,8 +20,8 @@
 </header>
 <nav id="menu">
 	<ul>
-		<li><a href="/noticias_teco/index.php">Home</a></li>
-		<li><a href="/noticias_teco/noticias/index.php">Notícias</a></li>
+		<li><a href="index.php">Home</a></li>
+		<li><a href="noticias.php">Notícias</a></li>
 		<li><a href="#">Administração <i class="fas fa-lock"></i></a></li>
 	</ul>
 	<div class="clearfix"></div>

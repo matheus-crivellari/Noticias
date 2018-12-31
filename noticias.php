@@ -4,13 +4,13 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 
-	<link rel="stylesheet" href="../assets/style/fontawesome/css/all.css">
+	<link rel="stylesheet" href="assets/style/fontawesome/css/all.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,900" rel="stylesheet">
-	<link rel="stylesheet" href="../assets/style/style.css">
+	<link rel="stylesheet" href="assets/style/style.css">
 </head>
 <body>
 	<div id="principal">
-		<?php require '../php/header.php' ?>
+		<?php require_once 'php/header.php' ?>
 		<main>
 			<!-- Notícias comuns -->
 			<section id="comuns">
@@ -19,7 +19,7 @@
 					<?php $cat_url = '#'; ?>
 					<article class="comum">
 						<figure>
-							<a href="<?= $link ?>"><img src="../assets/img/1000x610.png" alt=""></a>
+							<a href="<?= $link ?>"><img src="assets/img/1000x610.png" alt=""></a>
 						</figure>
 						<div>
 							<p class="categoria"><strong><a href="<?= $cat_url ?>">Categoria</a></strong></p>
@@ -40,7 +40,7 @@
 				<a class="button" href="#">Última</a>
 			</div>
 		</main>
-		<?php require '../php/footer.php' ?>
+		<?php require_once 'php/footer.php' ?>
 	</div>
 </body>
 </html>
