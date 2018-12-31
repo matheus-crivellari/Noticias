@@ -39,15 +39,25 @@
     <div class="container-fluid p-3 p-lg-5">
         <div class="row">
             <div class="col-md-12">
+
+                <!-- Alert sucesso -->
+                <?php $msg = 'Notícia adicionda com sucesso.' ?>
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    <?= $msg ?>
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
                 <h1>Notícias</h1>
                 
                 <!-- Adiciona notícia -->
                 <a href="#">
-                    <button type="button" class="btn btn-primary"><i class="fas fa-plus"></i> Adicionar Notícia</button>
+                    <button type="button" class="btn btn-primary mb-3"><i class="fas fa-plus"></i> Adicionar Notícia</button>
                 </a>
 
                 <!-- Tabela de notícias -->
-                <div class="table-responsive pt-3">
+                <div class="table-responsive">
                     <table class="table">
                         <thead>
                             <tr>
