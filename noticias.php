@@ -13,7 +13,7 @@ $categoriaid = isset($_GET['categoria']) ? $_GET['categoria'] : 0;
 </head>
 <body>
 	<div id="principal">
-		<?php require_once 'php/header.php' ?>
+		<?php require_once 'header.php' ?>
 		<main>
 			<!-- Seletor de seções -->
 			<section id="seletor">
@@ -54,7 +54,7 @@ $categoriaid = isset($_GET['categoria']) ? $_GET['categoria'] : 0;
 				<a class="button" href="#">Última</a>
 			</div>
 		</main>
-		<?php require_once 'php/footer.php' ?>
+		<?php require_once 'footer.php' ?>
 	</div>
 </body>
 </html>
