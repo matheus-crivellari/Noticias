@@ -73,11 +73,11 @@
                 <!-- Paginação -->
                 <nav aria-label="Paginação de notícias mx-auto">
                     <ul class="pagination justify-content-center">
+                        <li class="page-item"><a class="page-link" href="#">Primeira</a></li>
                         <li class="page-item"><a class="page-link" href="#">Anterior</a></li>
-                        <li class="page-item"><a class="page-link" href="#">1</a></li>
-                        <li class="page-item"><a class="page-link" href="#">2</a></li>
-                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><span id="pagination" class="disabled page-link text-muted">Página <strong>1</strong> de <strong>10</span></strong></li>
                         <li class="page-item"><a class="page-link" href="#">Próxima</a></li>
+                        <li class="page-item"><a class="page-link" href="#">Última</a></li>
                     </ul>
                 </nav>
             </div>

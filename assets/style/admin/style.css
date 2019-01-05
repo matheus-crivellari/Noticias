@@ -3,3 +3,7 @@
     background-color: #f08b1a;
     border-radius: 0;
 }
+
+#pagination{
+    pointer-events: none;
+}
