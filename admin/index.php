@@ -52,7 +52,7 @@
                         </thead>
                         <tbody>
                             <?php for ($i=0; $i<5; $i++): ?>
-                                <?php $id = $i ?>
+                                <?php $id = $i+1 ?>
                                 <tr>
                                     <td scope="col"><?= $i+1 ?></td>
                                     <td scope="col">Título da notícia</td>

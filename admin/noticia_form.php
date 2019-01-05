@@ -8,9 +8,9 @@ $id = $_GET['id'] ?? 0;
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<?php if($id): ?>
-	<title>Nova notícia</title>
+		<title>Editar notícia</title>
 	<?php else: ?>
-	<title>Editar notícia</title>
+		<title>Nova notícia</title>
 	<?php endif ?>
 	
 	<link rel="stylesheet" href="../assets/style/bootstrap/bootstrap.css">
@@ -25,11 +25,11 @@ $id = $_GET['id'] ?? 0;
 	<!-- Conteúdo da página -->
 	<div class="container-fluid p-3 p-lg-5">
 		<div class="row">
-			<div class="col-6 offset-3">
+			<div class="col-md-6 offset-md-3 col-sm-12">
 				<?php if($id): ?>
-				<h1>Nova notícia</h1>
+					<h1>Editar notícia</h1>
 				<?php else: ?>
-				<h1>Editar notícia</h1>
+					<h1>Nova notícia</h1>
 				<?php endif ?>
 				<form>
 					<!-- Título da notícia -->
