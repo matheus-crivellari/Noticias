@@ -12,28 +12,8 @@
 </head>
 <body>
     <!-- Topo do admin -->
-    <div class="jumbotron" id="topo">
-        <h1 class="display-4">Nome do site</h1>
-    </div>
-
-    <!-- Navegação do admin -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Administração</a>
-        
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link" href="#">Notícias <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#">Categorias</a>
-                <a class="nav-item nav-link" href="#">Usuários</a>
-                <a class="nav-item nav-link" href="#">Uploads</a>
-                <a class="nav-item nav-link" href="../index.php">Sair</a>
-            </div>
-        </div>
-    </nav>
+    <?php $pag_sel = 'not' ?>
+    <?php require_once 'header.php' ?>
 
     <!-- Conteúdo da página -->
     <div class="container-fluid p-3 p-lg-5">
@@ -52,7 +32,7 @@
                 <h1>Notícias</h1>
                 
                 <!-- Adiciona notícia -->
-                <a href="#">
+                <a href="noticia_form.php">
                     <button type="button" class="btn btn-primary mb-3"><i class="fas fa-plus"></i> Adicionar Notícia</button>
                 </a>
 
@@ -81,7 +61,7 @@
                                     <td scope="col">2018-12-03 19:31:42</td>
                                     <td scope="col">Sim</td>
                                     <td scope="col">
-                                        <a href="noticia_editar.php?id=<?= $id ?>"><button type="button" class="btn btn-secondary btn-sm"><i class="fas fa-pencil-alt"></i> Editar</button></a>
+                                        <a href="noticia_form.php?id=<?= $id ?>"><button type="button" class="btn btn-secondary btn-sm"><i class="fas fa-pencil-alt"></i> Editar</button></a>
                                         <button type="button" data-toggle="modal" data-target="#excluirModal_<?= $id ?>" class="btn btn-danger btn-sm"><i class="fas fa-trash"></i> Excluir</button>
                                     </td>
                                 </tr>
@@ -93,11 +73,11 @@
                 <!-- Paginação -->
                 <nav aria-label="Paginação de notícias mx-auto">
                     <ul class="pagination justify-content-center">
-                        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                        <li class="page-item"><a class="page-link" href="#">Anterior</a></li>
                         <li class="page-item"><a class="page-link" href="#">1</a></li>
                         <li class="page-item"><a class="page-link" href="#">2</a></li>
                         <li class="page-item"><a class="page-link" href="#">3</a></li>
-                        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                        <li class="page-item"><a class="page-link" href="#">Próxima</a></li>
                     </ul>
                 </nav>
             </div>
