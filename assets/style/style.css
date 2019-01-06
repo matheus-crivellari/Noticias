@@ -61,12 +61,24 @@ li{
 /* Cabeçalho do site */
 #header{
 	background-color: #f08b1a;
-	height: 100px;
+	height: 120px;
 	width: 100%;
 }
 
 #logo{
 	float: left;
+	height: 100%;
+	box-sizing: border-box;
+	padding: 10px 0 0 20px;
+}
+
+#logo img{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.logo_texto{
+	color: white;
 }
 
 #busca{
