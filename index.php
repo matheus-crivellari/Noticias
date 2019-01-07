@@ -10,7 +10,7 @@
 </head>
 <body>
 	<div id="principal">
-		<?php require_once 'header.php'; ?>
+		<?php require_once '_header.php'; ?>
 		<main id="conteudo">
 			<!-- Notícias em destaque -->
 			<section id="destaques">
@@ -50,7 +50,7 @@
 			</section>
 		</main>
 		<p><a id="mais" href="noticias.php">Mais notícias...</a></p>
-		<?php require_once 'footer.php'; ?>
+		<?php require_once '_footer.php'; ?>
 	</div>
 </body>
 </html>
