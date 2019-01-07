@@ -10,7 +10,9 @@
 </nav>
 <header id="header">
 	<div id="logo">
-		<img src="assets/img/contamais-logo.svg" alt="Conta Mais Notícias" title="Conta Mais Notícias">
+		<a href="index.php">
+			<img src="assets/img/contamais-logo.svg" alt="Conta Mais Notícias" title="Conta Mais Notícias">
+		</a>
 	</div>
 	<div id="busca">
 		<form action="buscar.php" action="post">
