@@ -13,7 +13,7 @@
 <body>
     <!-- Topo do admin -->
     <?php $pag_sel = 'not' ?>
-    <?php require_once 'header.php' ?>
+    <?php require_once '_header.php' ?>
 
     <!-- Conteúdo da página -->
     <div class="container-fluid p-3 p-lg-5">
