@@ -7,11 +7,7 @@ $id = $_GET['id'] ?? 0;
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<?php if($id): ?>
-		<title>Editar notícia</title>
-	<?php else: ?>
-		<title>Nova notícia</title>
-	<?php endif ?>
+	<title>Conta mais</title>
 	
 	<link rel="stylesheet" href="../assets/style/bootstrap/bootstrap.css">
 	<link rel="stylesheet" href="../assets/style/admin/style.css">
