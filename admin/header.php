@@ -1,6 +1,6 @@
 <!-- Topo do admin -->
 <div class="jumbotron" id="topo">
-	<h1 class="display-4">Nome do site</h1>
+	<h1 class="display-4">Conta mais</h1>
 </div>
 
 <!-- Navegação do admin -->

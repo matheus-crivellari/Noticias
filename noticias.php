@@ -5,7 +5,7 @@ $categoriaid = isset($_GET['categoria']) ? $_GET['categoria'] : 0;
 <html lang="pt_br">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Conta mais</title>
 
 	<link rel="stylesheet" href="assets/style/fontawesome/css/all.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,900" rel="stylesheet">

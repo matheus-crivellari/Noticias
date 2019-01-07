@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Administração</title>
+    <title>Conta mais</title>
 
     <link rel="stylesheet" href="../assets/style/bootstrap/bootstrap.css">
     <link rel="stylesheet" href="../assets/style/admin/style.css">
@@ -54,7 +54,7 @@
                             <?php for ($i=0; $i<5; $i++): ?>
                                 <?php $id = $i+1 ?>
                                 <tr>
-                                    <td scope="col"><?= $i+1 ?></td>
+                                    <td scope="col"><?= $id ?></td>
                                     <td scope="col">Título da notícia</td>
                                     <td scope="col">Nome da categoria</td>
                                     <td scope="col"><code>nome_do_arquivo.jpg</code></td>
@@ -85,7 +85,7 @@
     </div>
       
     <?php for ($i=0; $i < 5; $i++): ?>
-        <?php $id = $i ?>
+        <?php $id = $i+1 ?>
         <!-- Modal <?= $id ?> -->
         <div class="modal fade" id="excluirModal_<?= $id ?>" tabindex="-1" role="dialog" aria-labelledby="excluirModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
@@ -97,11 +97,11 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        Confirmar exclusão de "Notícia <?= $i+1 ?>"?
+                        Confirmar exclusão de "Notícia <?= $id ?>"?
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                        <form action="noticia_excluir.php" method="POST">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                        <form action="noticia_excluir.php" method="GET">
                                 <input type="hidden" name="id" id="id" value="<?= $id ?>">
                                 <button type="submit" class="btn btn-danger">Excluir</button>
                         </form>
