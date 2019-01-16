@@ -10,7 +10,7 @@
 </head>
 <body>
 	<div id="principal">
-		<?php require 'header.php' ?>
+		<?php require_once '_header.php' ?>
 		<main>
 			<article id="artigo">
 				<h1 id="titulo">
@@ -37,7 +37,7 @@
 				</article>
 			</article>
 		</main>
-		<?php require 'footer.php' ?>
+		<?php require_once '_footer.php' ?>
 	</div>
 </body>
 </html>
