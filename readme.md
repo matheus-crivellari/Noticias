@@ -1,3 +1,3 @@
-#Técnico de informática
+# Técnico de informática
 
-##Site dinâmico de notícias
+## Site dinâmico de notícias
