@@ -9,11 +9,7 @@
 	<div class="clearfix"></div>
 </nav>
 <header id="header">
-	<div id="logo">
-		<a href="index.php">
-			<img src="assets/img/contamais-logo.svg" alt="Conta Mais Notícias" title="Conta Mais Notícias">
-		</a>
-	</div>
+	<div id="logo"></div>
 	<div id="busca">
 		<form action="buscar.php" action="post">
 			<input type="search" id="buscar" name="buscar" placeholder="Buscar">

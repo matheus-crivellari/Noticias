@@ -1,9 +1,9 @@
 <footer id="footer">
 	<div id="copyright">
-		© Copyright 2018 - Conta mais - Todos os direitos reservados.
+		© Copyright 2018 - Nome do Site - Todos os direitos reservados.
 	</div>
 	<div id="creditos">
-		Desenvolvido por: Conta mais
+		Desenvolvido por: Nome do Site
 	</div>
 	<div class="clearfix"></div>
 </footer>
