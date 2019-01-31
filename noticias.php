@@ -54,11 +54,7 @@ $categoriaid = isset($_GET['categoria']) ? $_GET['categoria'] : 0;
 				<a class="button" href="#">Última</a>
 			</div>
 		</main>
-<<<<<<< HEAD
-		<?php require_once '_footer.php' ?>
-=======
 		<?php require_once 'footer.php' ?>
->>>>>>> ADMIN
 	</div>
 </body>
 </html>

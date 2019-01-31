@@ -50,11 +50,7 @@
 			</section>
 		</main>
 		<p><a id="mais" href="noticias.php">Mais notícias...</a></p>
-<<<<<<< HEAD
-		<?php require_once '_footer.php'; ?>
-=======
 		<?php require_once 'footer.php'; ?>
->>>>>>> ADMIN
 	</div>
 </body>
 </html>

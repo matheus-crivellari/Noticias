@@ -37,11 +37,7 @@
 				</article>
 			</article>
 		</main>
-<<<<<<< HEAD
-		<?php require_once '_footer.php' ?>
-=======
 		<?php require 'footer.php' ?>
->>>>>>> ADMIN
 	</div>
 </body>
 </html>
