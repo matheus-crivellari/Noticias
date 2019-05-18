@@ -1,1 +1,0 @@
-Pasta para receber arquivos de upload
