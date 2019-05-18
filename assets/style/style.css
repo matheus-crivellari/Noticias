@@ -192,19 +192,22 @@ section#seletor{
 }
 
 /* Notícias comuns */
-.comum{
+.comum, .destaque{
     display: block;
     height: auto;
     padding: 20px 0 20px 0;
     border-bottom: solid 1px #ccc;
+    color: #666;
+    text-decoration: none;
 }
 
-.comum:hover {
+.comum:hover, .destaque:hover{
     background: white;
 }
 
-.comum:hover .resumo a{
-    text-decoration: underline;
+.comum .resumo a, .destaque .resumo a{
+    color: inherit;
+    text-decoration: inherit;
 }
 
 .categoria, .categoria a{
@@ -223,7 +226,7 @@ section#seletor{
     font-weight: 100;
 }
 
-.comum .resumo, .comum .resumo a{
+.comum:hover .resumo a, .destaque:hover .resumo a{
     text-decoration: none;
     color: #666;
 }
@@ -234,11 +237,11 @@ section#seletor{
     color: #666;
 }
 
-.comum:last-child{
+.comum:last-child, .destaque:last-child{
     border-bottom: none;
 }
 
-.comum figure{
+.comum figure, .destaque figure{
     position: relative;
     display: block;
     margin: 0;
@@ -247,72 +250,32 @@ section#seletor{
     float: left;
 }
 
-.comum figure img{
+.comum figure img, .destaque figure img{
     width: auto;
     height: auto;
     max-width: 100%;
     max-height: 100%;
 }
 
-.comum figure+div{
+.comum figure+div, .destaque figure+div{
     width: 80%;
     float: left;
     padding: 0 20px;
     box-sizing: border-box;
 }
 
-.comum figure+div p{
+.comum figure+div p, .destaque figure+div p{
     margin: 0;
 }
 
 /* Notícias destaques */
 .destaque{
-    position: relative;
-    display: block;
-    width: calc(50% - 10px);
-    height: 400px;
-    background: #fff;
-    border: solid 1px #e1e1e1;
-    border-radius: 3px;
-    box-sizing: border-box;
-    padding: 20px;
-    float: left;
-    margin: 20px 20px 0 0;
-
-    /* background-image: url(../img/1000x610.png); */
-    background-size: 120%;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-color: #e9e2e9;
+    border-bottom: solid 1px white;
 }
 
 .destaque:hover{
-    background-size: 150%;
-    background-position: center;
-}
-
-.destaque .manchete:hover{
-    text-decoration: underline;
-}
-
-.destaque .manchete, .destaque .manchete a{
-    color: white;
-    font-weight: 900;
-    text-shadow: 1px 1px 3px #0005;
-}
-
-.destaque:last-child{
-    margin-right: 0;
-}
-
-.destaque .grupo{
-    position: relative;
-    display: block;
-    top: 100%;
-    margin: -35% 0 0 0;
-}
-
-.destaque p{
-    margin: 0;
+    background-color: #ded3de;
 }
 
 #mais{
