@@ -23,6 +23,9 @@
 * Autenticação;
   * Usuário;
   * Senha;
+* Restrição de acessos;
+  * Usuário administrador;
+  * Usuário comum;
 
 ### Melhorias para o *site*
 * Sistema de comentários para notícias;
