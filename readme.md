@@ -20,12 +20,14 @@
 * Usuários `>` Visualizar;
 * Usuários `>` Editar;
 * Usuários `>` Excluir;
+* Paginação;
 * Autenticação;
   * Usuário;
   * Senha;
 * Restrição de acessos;
   * Usuário administrador;
   * Usuário comum;
+* Upload de arquivo;
 
 ### Melhorias para o *site*
 * Sistema de comentários para notícias;
