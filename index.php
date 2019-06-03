@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt_br">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -52,7 +52,6 @@
             <br>
             <!-- Notícias em destaque -->
             <section id="destaques">
-                <?php for ($i=0;$i<3;$i++): ?>
                 <article class="destaque">
                     <figure>
                         <a href="#"><img src="assets/img/1000x610.png" alt=""></a>
@@ -74,13 +73,53 @@
                     </div>
                     <div class="clearfix"></div>
                 </article>
-                <?php endfor; ?>
+                <article class="destaque">
+                    <figure>
+                        <a href="#"><img src="assets/img/1000x610.png" alt=""></a>
+                    </figure>
+                    <div>
+                        <p class="categoria">
+                            <strong><a href="#">Categoria</a></strong>
+                        </p>
+                        <h2 class="manchete">
+                            <a href="#">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing</a>
+                        </h2>
+                        <p class="resumo">
+                            <a href="#">Sed do eiusmod tempor incididunt ut labore et dolore
+                                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                aliquip ex ea commodo consequat.</a>
+                        </p>
+                        <strong class="data">10/11/2018</strong>
+                    </div>
+                    <div class="clearfix"></div>
+                </article>
+                <article class="destaque">
+                    <figure>
+                        <a href="#"><img src="assets/img/1000x610.png" alt=""></a>
+                    </figure>
+                    <div>
+                        <p class="categoria">
+                            <strong><a href="#">Categoria</a></strong>
+                        </p>
+                        <h2 class="manchete">
+                            <a href="#">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing</a>
+                        </h2>
+                        <p class="resumo">
+                            <a href="#">Sed do eiusmod tempor incididunt ut labore et dolore
+                                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                aliquip ex ea commodo consequat.</a>
+                        </p>
+                        <strong class="data">10/11/2018</strong>
+                    </div>
+                    <div class="clearfix"></div>
+                </article>
                 <div class="clearfix"></div>
             </section>
             <br>
             <!-- Notícias comuns -->
             <section id="comuns">
-                <?php for ($i=0;$i<3;$i++): ?>
                 <article class="comum">
                     <figure>
                         <a href="#"><img src="assets/img/1000x610.png" alt=""></a>
@@ -102,7 +141,48 @@
                     </div>
                     <div class="clearfix"></div>
                 </article>
-                <?php endfor; ?>
+                <article class="comum">
+                    <figure>
+                        <a href="#"><img src="assets/img/1000x610.png" alt=""></a>
+                    </figure>
+                    <div>
+                        <p class="categoria">
+                            <strong><a href="#">Categoria</a></strong>
+                        </p>
+                        <h2 class="manchete">
+                            <a href="#">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing</a>
+                        </h2>
+                        <p class="resumo">
+                            <a href="#">Sed do eiusmod tempor incididunt ut labore et dolore
+                                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                aliquip ex ea commodo consequat.</a>
+                        </p>
+                        <strong class="data">10/11/2018</strong>
+                    </div>
+                    <div class="clearfix"></div>
+                </article>
+                <article class="comum">
+                    <figure>
+                        <a href="#"><img src="assets/img/1000x610.png" alt=""></a>
+                    </figure>
+                    <div>
+                        <p class="categoria">
+                            <strong><a href="#">Categoria</a></strong>
+                        </p>
+                        <h2 class="manchete">
+                            <a href="#">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing</a>
+                        </h2>
+                        <p class="resumo">
+                            <a href="#">Sed do eiusmod tempor incididunt ut labore et dolore
+                                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                aliquip ex ea commodo consequat.</a>
+                        </p>
+                        <strong class="data">10/11/2018</strong>
+                    </div>
+                    <div class="clearfix"></div>
+                </article>
                 <div class="clearfix"></div>
             </section>
         </main>
