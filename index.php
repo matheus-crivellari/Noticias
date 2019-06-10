@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>Conta mais</title>
 
-    <link rel="stylesheet" href="assets/style/fontawesome/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,900" rel="stylesheet">
     <link rel="stylesheet" href="assets/style/style.css">
 </head>
@@ -15,11 +15,11 @@
         <!-- CABEÇALHO DO SITE -->
         <nav id="social">
             <ul>
-                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
             </ul>
             <div class="clearfix"></div>
         </nav>
@@ -41,7 +41,7 @@
             <ul>
                 <li><a href="index.php">Home</a></li>
                 <li><a href="noticias.php">Notícias</a></li>
-                <li><a href="admin">Administração <i class="fas fa-lock"></i></a></li>
+                <li><a href="admin">Administração <i class="fa fa-lock"></i></a></li>
             </ul>
             <div class="clearfix"></div>
         </nav>
